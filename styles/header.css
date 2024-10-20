@@ -1,0 +1,17 @@
+#primary {
+  padding-block: 2rem;
+  justify-content: space-between;
+
+  /* nesting css */
+  div {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+}
+
+#secondary {
+  border-block: 1px solid var(--stroke-color);
+  justify-content: space-between;
+  padding-block: 1.4rem;
+}

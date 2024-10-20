@@ -29,6 +29,10 @@ body {
   font: var(--text);
 }
 
+h1, h2, h3 {
+  font: inherit;
+}
+
 a {
   color: inherit; /* inherit: herda a cor da tag pai */
   text-decoration: none;
@@ -36,4 +40,14 @@ a {
 
 a:hover {
   color: var(--brand-color-light);
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 3.2rem;
 }
