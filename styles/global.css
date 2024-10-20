@@ -3,3 +3,37 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  font-size: 62.5%;
+
+  --brand-color-light: #60a5fa;
+  --brand-color-dark: #1d4ed8;
+  --bg-color: #0f172a;
+  --stroke-color: #1e293b;
+  --text-color-primary: #f1f5f9;
+  --text-color-secondary: #cbd5e1;
+
+  --font-archivo: "Archivo", sans-serif;
+  --h1: 800 2.4rem/135% var(--font-archivo);
+  --h2: 800 1.6rem/140% var(--font-archivo);
+  --h3: 800 1.6rem/140% var(--font-archivo);
+  --span: 600 1.4rem/145% var(--font-archivo);
+  --text: 400 1.6rem/160% var(--font-archivo);
+  --text-sm: 400 1.4rem/160% var(--font-archivo);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color-primary);
+  font: var(--text);
+}
+
+a {
+  color: inherit; /* inherit: herda a cor da tag pai */
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--brand-color-light);
+}
