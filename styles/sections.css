@@ -1,0 +1,7 @@
+#featured {
+  img {
+    border-radius: .4rem;
+    height: 100%;
+    object-fit: cover;
+  }
+}
