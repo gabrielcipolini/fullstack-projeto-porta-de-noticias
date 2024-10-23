@@ -17,7 +17,7 @@
   --font-archivo: "Archivo", sans-serif;
   --h1: 800 2.4rem/135% var(--font-archivo);
   --h2: 800 1.6rem/140% var(--font-archivo);
-  --h3: 800 1.6rem/140% var(--font-archivo);
+  --h3: 800 1.4rem/140% var(--font-archivo);
   --span: 600 1.4rem/145% var(--font-archivo);
   --text: 400 1.6rem/160% var(--font-archivo);
   --text-sm: 400 1.4rem/160% var(--font-archivo);
@@ -29,7 +29,9 @@ body {
   font: var(--text);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font: inherit;
 }
 
@@ -54,4 +56,16 @@ img {
 
 main {
   margin-top: 4rem;
+}
+
+.content-tag {
+  background-color: var(--brand-color-dark);
+  border-radius: 0.4rem;
+  box-shadow: 0 .4rem 1.6rem rgba(2, 6, 23, 0.25);
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+
+  font: 500 1rem/1.2 var(--font-archivo);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }

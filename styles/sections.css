@@ -1,7 +1,34 @@
 #featured {
   img {
-    border-radius: .4rem;
     height: 100%;
     object-fit: cover;
+  }
+
+  .card {
+    border-radius: 0.4rem;
+    overflow: hidden;
+    position: relative;
+
+    &::before {
+      background: linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, #020617 100%);
+      content: "";
+      inset: 0;
+      position: absolute;
+      top: 50%;
+    }
+
+    figcaption {
+      position: absolute;
+      bottom: 0;
+      padding: 2.4rem;
+
+      &:has(.text-lg) {
+        padding: 1.2rem;
+      }
+
+      h2 {
+        margin-top: 0.8rem;
+      }
+    }
   }
 }
