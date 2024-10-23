@@ -23,4 +23,4 @@ Instruções para instalar e configurar seu projeto localmente.
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/username/nome-do-repositorio.git
+   git clone https://github.com/gabrielcipolini/fullstack-projeto-porta-de-noticias.git
