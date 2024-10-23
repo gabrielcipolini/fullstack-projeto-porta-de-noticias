@@ -55,13 +55,21 @@ img {
 }
 
 main {
-  margin-top: 4rem;
+  grid-template-areas:
+    "featured featured"
+    "weekly weekly"
+    "ai aside";
+  grid-template-columns: 2fr 40%;
+
+  column-gap: 3.2rem;
+  row-gap: 8rem;
+  margin-block: 4rem 8rem;
 }
 
 .content-tag {
   background-color: var(--brand-color-dark);
   border-radius: 0.4rem;
-  box-shadow: 0 .4rem 1.6rem rgba(2, 6, 23, 0.25);
+  box-shadow: 0 0.4rem 1.6rem rgba(2, 6, 23, 0.25);
   display: inline-block;
   padding: 0.4rem 0.8rem;
 
