@@ -9,13 +9,13 @@ section header {
     justify-self: end;
 
     span {
-      background-image: url(/assets/icons/ArrowRight.svg);
+      background-image: url(/assets/icons/arrowRight1.svg);
       width: 1.6rem;
       height: 1.6rem;
     }
 
     &:hover span {
-      background-image: url(/assets/icons/ArrowRight-hover.svg);
+      background-image: url(/assets/icons/arrowRight1Hover.svg);
     }
   }
 }
@@ -110,7 +110,7 @@ aside {
   position: relative;
 
   button {
-    background-image: url(/assets/icons/Close\ button.svg);
+    background-image: url(/assets/icons/closebutton.svg);
     border: none;
     cursor: pointer;
 
